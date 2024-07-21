@@ -1,0 +1,104 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+} */
+.form-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 900px;
+}
+.form-container .flex {
+    display: flex;
+    flex-direction: column;
+}
+.form-container .grid {
+    display: grid;
+    gap: 1.5rem;
+}
+.form-container .relative {
+    position: relative;
+}
+.form-container select,
+.form-container input[type="text"],
+.form-container input[type="date"] {
+    width: 100%;
+    padding: 10px 15px 10px 45px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+.form-container input[type="date"]::-webkit-calendar-picker-indicator {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.form-container img {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    z-index: 1;
+}
+.form-container button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: opacity 0.3s;
+}
+.form-container button[type="reset"] {
+    background-color: #ccc;
+    color: #333;
+}
+.form-container button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+}
+.form-container button:hover {
+    opacity: 0.8;
+}
+/* 
+------------------------------------------------------------ */
+/* 
+
+.grid {
+  display: grid;
+  grid-gap: 1rem;
+  padding: 1rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.relative {
+  position: relative;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #D1D5DB;
+  border-radius: 0.375rem;
+  background-color: #F3F4F6;
+  outline: none;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+} */
